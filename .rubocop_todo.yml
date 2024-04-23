@@ -59,6 +59,7 @@ Metrics/PerceivedComplexity:
 # Offense count: 5
 # Configuration parameters: AllowedConstants.
 Style/Documentation:
+  Enabled: false
   Exclude:
     - 'spec/**/*'
     - 'test/**/*'
