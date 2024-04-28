@@ -1,4 +1,3 @@
-# metric of users in the database
 class CreateUserMetrics < ActiveRecord::Migration[7.1]
   def change
     create_table :user_metrics do |t|

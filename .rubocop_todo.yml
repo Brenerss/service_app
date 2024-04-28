@@ -60,14 +60,14 @@ Metrics/PerceivedComplexity:
 # Configuration parameters: AllowedConstants.
 Style/Documentation:
   Enabled: false
-  Exclude:
-    - 'spec/**/*'
-    - 'test/**/*'
-    - 'app/helpers/application_helper.rb'
-    - 'app/mailers/application_mailer.rb'
-    - 'app/models/application_record.rb'
-    - 'config/application.rb'
-    - 'db/migrate/20240423193046_create_users.rb'
+  # Exclude:
+  #   - 'spec/**/*'
+  #   - 'test/**/*'
+  #   - 'app/helpers/application_helper.rb'
+  #   - 'app/mailers/application_mailer.rb'
+  #   - 'app/models/application_record.rb'
+  #   - 'config/application.rb'
+  #   - 'db/migrate/20240423193046_create_users.rb'
 
 # Offense count: 35
 # This cop supports unsafe autocorrection (--autocorrect-all).
